@@ -15,6 +15,7 @@ int main(int argc, char* argv[]){
     cout<<"hello from task " <<taskid<<" on "<<hostname<<endl;
     if(taskid==MASTER){
 	cout<<"MASTER: The total number of MPI task is "<<numtasks<<endl;
+
     }
     MPI_Finalize();
     return 0;
